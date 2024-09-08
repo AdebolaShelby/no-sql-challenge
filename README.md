@@ -3,8 +3,8 @@
 * Instructions:
     * The UK Food Standards Agency evaluates various establishments across the United Kingdom, and gives them a food hygiene rating. You've been contracted by the editors of a food magazine, Eat Safe, Love, to evaluate some of the ratings data in order to help their journalists and food critics decide where to focus future articles.
 
-* Part 1: Database and Jupyter Notebook Set Up
-See the NoSQL_setup_starter.ipynb for this section of the challenge.
+# Part 1: Database and Jupyter Notebook Set Up
+    * See the NoSQL_setup_starter.ipynb for this section of the challenge.
 
     * Import the data provided in the establishments.json file from your Terminal. Name the database uk_food and the collection establishments. Copy the text used to import the data from Terminal to a markdown cell in notebook.
 
@@ -19,8 +19,8 @@ See the NoSQL_setup_starter.ipynb for this section of the challenge.
     * Find and display one document in the establishments collection using find_one and display with pprint.
     * Assign the establishments collection to a variable to prepare the collection for use.
 
-* Part 2: Update the Database
-See the NoSQL_setup_starter.ipynb for this section of the challenge.
+# Part 2: Update the Database
+    * See the NoSQL_setup_starter.ipynb for this section of the challenge.
 
     * The magazine editors have some requested modifications for the database before performing any queries or analysis. Make the following changes to the establishments collection:
 
@@ -39,10 +39,10 @@ See the NoSQL_setup_starter.ipynb for this section of the challenge.
         * Use update_many to convert latitude and longitude to decimal numbers.
         * Use update_many to convert RatingValue to integer numbers.
 
-* Part 3: Exploratory Analysis
-Eat Safe, Love has specific questions they want answered, which will help them find the locations they wish to visit and avoid.
+# Part 3: Exploratory Analysis
+    * Eat Safe, Love has specific questions they want answered, which will help them find the locations they wish to visit and avoid.
 
-See the NoSQL_analysis_starter.ipynb for this section of the challenge.
+    * See the NoSQL_analysis_starter.ipynb for this section of the challenge.
 
 * Some notes to be aware of while you are exploring the dataset:
     * RatingValue refers to the overall rating decided by the Food Authority and ranges from 1-5. The higher the value, the better the rating.
