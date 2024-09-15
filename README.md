@@ -8,9 +8,16 @@
 
     * Import the data provided in the establishments.json file from your Terminal. Name the database uk_food and the collection establishments. Copy the text used to import the data from Terminal to a markdown cell in notebook.
 
+        * mongoimport --type json -d uk_food -c establishments --drop --jsonArray establishments.json
+
     * Within notebook, import the libraries needed: PyMongo and Pretty Print (pprint).
 
+        * from pymongo import MongoClient
+        * import pandas as pd
+        * from pprint import pprint
+
     * Create an instance of the Mongo Client.
+        * mongo = MongoClient(port=27017)
 
     * Confirm that you created the database and loaded the data properly:
 
